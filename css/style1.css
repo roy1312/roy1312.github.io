@@ -1,0 +1,14 @@
+
+body {
+    font-family: Arial;
+    background-color:#d3d3d3;
+}
+
+.title{
+background-color: #e5e5e5;
+width: 300px;
+padding: 40px;
+position: absolute;
+left: 50%;
+
+}

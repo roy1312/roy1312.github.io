@@ -84,14 +84,15 @@ html, body{
 }
 
 .content .greeting{
-    margin-top: 162px;
+    margin-top: 50px;
     margin-left:50px;
     /*font-family:"Arial";*/
-    font-size: 18px;
+    font-size: 16px;
+    
 }
 
 .content .interest{
-    margin-top: 30px;
+    margin-top: 20px;
     margin-left:50px;
     font-family: "georgia", serif;
     font-weight: bold;
@@ -102,8 +103,44 @@ html, body{
     margin-top: 12px;
     margin-left:50px;
     /*font-family: "Helvetica Neue", sans-serif;*/
+    font-size: 16px;
+}
+
+.content .workingpaper{
+    margin-top: 30px;
+    margin-left:50px;
+    font-family: "georgia", serif;
+    font-weight: bold;
     font-size: 18px;
 }
+
+.content .wplist{
+    margin-top: 12px;
+    margin-left:50px;
+    margin-right:90px;
+    font-family: "georgia", serif;
+    font-weight:bold;
+}
+
+.content .wpauthor{
+    margin-top: 11px;
+    margin-left:50px;
+    font-family: "Lucida Grande", Tahoma;
+    font-size:15px;
+}
+
+.content .wp{
+    margin-top: 12px;
+    margin-left:50px;
+    margin-right: 90px;
+    margin-bottom: 0px;
+    text-align: justify;
+    /*font-family: "Helvetica Neue", sans-serif;*/
+    font-size: 16px;
+
+}
+
+
 
 
 
@@ -113,11 +150,12 @@ html, body{
     top: 0;
     left:220px;
     right:0;
-    height:100%；
+    height:100%;
+    line-height: 150%;
 }
 
 .research-content .interest{
-    margin-top: 162px;
+    margin-top: 50px;
     margin-left:50px;
     font-family: "georgia", serif;
     font-weight: bold;
@@ -158,7 +196,7 @@ html, body{
     margin-top: 12px;
     margin-left:50px;
     margin-right: 90px;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
     text-align: justify;
     /*font-family: "Helvetica Neue", sans-serif;*/
     font-size: 16px;
